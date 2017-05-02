@@ -1,0 +1,11 @@
+{
+  "name": "miscellany",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/b-ritter/javascript-notes.git",
+  "author": "Benjamin Ritter",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^3.3.0"
+  }
+}
