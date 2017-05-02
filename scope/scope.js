@@ -1,15 +1,19 @@
 const definer = function() {
-    const f = undefined;
+    const foo = undefined;
 
     if(true) {
-        const f = 'foo';
+        const foo = 'foo';
+
     }
 
     if(true){
-        var b = 'bar';
+        var bar = 'bar';
     }
 
-    return [f, b]
+    return {
+        'foo': foo,
+        'bar': bar
+    }
 }
 
 module.exports = {
