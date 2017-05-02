@@ -1,3 +1,6 @@
 module.exports= {
-    foo: 'bar'
+    foo: 'bar',
+    baz: ()=> {
+        return 'foobar';
+    }
 }
