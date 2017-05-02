@@ -1,5 +1,5 @@
 # javascript-notes
-Just some javascript miscellany. Please take a look at the test cases associated with file to glean the point of the example.
+Just some javascript miscellany. Please take a look at the test cases associated with file to glean the point of the example. Mostly, the code here deals with concepts related to the language itself, not really how it behaves in the browser.
 
 ## Requirements
 You need to have [node]('https://nodejs.org/en/') and either [yarn]('https://yarnpkg.com/en/') or [npm]('https://www.npmjs.com/')installed.
