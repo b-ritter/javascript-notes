@@ -6,6 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "chai": "^3.5.0",
+    "global": "^4.3.2",
     "mocha": "^3.3.0"
   },
   "scripts": {

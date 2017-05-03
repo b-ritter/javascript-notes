@@ -4,3 +4,7 @@ module.exports= {
         return 'foobar';
     }
 }
+
+if(require.main == module){
+    console.log(module.exports.baz());
+}
