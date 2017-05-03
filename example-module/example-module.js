@@ -1,10 +1,12 @@
-module.exports= {
+const Foo = {
     foo: 'bar',
     baz: ()=> {
         return 'foobar';
     }
 }
 
+module.exports = Foo;
+
 if(require.main == module){
-    console.log(module.exports.baz());
+    console.log(Foo.baz());
 }

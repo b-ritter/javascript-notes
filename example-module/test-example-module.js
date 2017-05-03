@@ -3,6 +3,7 @@ const myModule = require('./example-module');
 const assert = require('chai').assert;
 
 describe('Example Module', ()=> {
+
     it("Should have a property 'foo' equal to 'bar'", ()=> {
         assert.equal(myModule.foo, 'bar');
     });
