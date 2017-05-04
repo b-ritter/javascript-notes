@@ -16,9 +16,7 @@ const definer = function() {
     }
 }
 
-module.exports = {
-    definer: definer
-}
+module.exports = definer;
 
 if(require.main == module){
     console.log(definer());
