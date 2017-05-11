@@ -17,7 +17,7 @@ let d = (x) =>
 
 describe('Pure Functions and Closures', ()=> {
 
-    const some_number = () => Math.floor(Msath.random()*10)
+    const some_number = () => Math.floor(Math.random()*10)
 
     it("a() should return {}", ()=> {
         const result = a()
@@ -30,9 +30,10 @@ describe('Pure Functions and Closures', ()=> {
         assert.equal(result, some_value);
     });
 
-    it("c('foo') should return 'foo'", ()=> {
+    it("c(value1)(value2) should return value1", ()=> {
         const some_value = some_number();
-        const result = some_value;
+        const some_other_value = some_number();
+        const result = c(some_value)(some_other_value);
         assert.equal(result, some_value);
     });
 
